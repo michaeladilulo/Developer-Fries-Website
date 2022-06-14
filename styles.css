@@ -39,3 +39,8 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
+
+.banner-image img {
+    width: 216px;
+    height: 100%;
+}
