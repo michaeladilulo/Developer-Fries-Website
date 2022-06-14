@@ -19,3 +19,16 @@ body {
 #address-container {
     color: red; 
 }
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
