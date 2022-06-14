@@ -12,7 +12,7 @@ body {
     padding: 60px 100px;
 }
 
-.contact-hours-wrapper {
+.contact-hours-container {
     color: royalblue;
 }
 
@@ -31,4 +31,10 @@ body {
 
 .icon i {
     font-size: 2em;
+}
+
+.left-container > .contact-hours-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
